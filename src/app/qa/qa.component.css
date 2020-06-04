@@ -30,7 +30,7 @@
   justify-content: center;
   border: 1px solid black;
   padding: 0.5em;
-  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("../../assets/tech_background.jpg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("https://raw.githubusercontent.com/diabagatekelly/tuzag-cover-letter/master/src/assets/tech_background.jpg") no-repeat;
   cursor: pointer;
   min-width: 100vw;
   height: auto;
@@ -56,7 +56,7 @@
     justify-content: center;
     border: 2px solid black;
     padding: 0.5em;
-    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("../../assets/tech_background.jpg") no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("https://raw.githubusercontent.com/diabagatekelly/tuzag-cover-letter/master/src/assets/tech_background.jpg") no-repeat;
     cursor: pointer;
     min-width: 50vw;
     min-height: 25vh;
@@ -65,7 +65,7 @@
   }
 
   .background {
-    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../assets/Kelly_D.jpg") no-repeat;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("https://raw.githubusercontent.com/diabagatekelly/tuzag-cover-letter/master/src/assets/Kelly_D.jpg") no-repeat;
     background-size: cover;
     z-index: -5;
   }
@@ -85,7 +85,7 @@
   justify-content: center;
   border: 2px solid black;
   padding: 1em;
-  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("../../assets/tech_background.jpg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("https://raw.githubusercontent.com/diabagatekelly/tuzag-cover-letter/master/src/assets/tech_background.jpg") no-repeat;
   cursor: pointer;
   min-width: 25vw;
   height: 43vh;
@@ -95,7 +95,7 @@
 }
 
 .background {
-  background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../assets/Kelly_D.jpg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("https://raw.githubusercontent.com/diabagatekelly/tuzag-cover-letter/master/src/assets/Kelly_D.jpg") no-repeat;
   background-size: cover;
   height: 100vh;
   z-index: -5;
