@@ -1,10 +1,6 @@
 .background {
   background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../assets/Kelly_D.jpg") no-repeat;
   background-size: cover;
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
   z-index: -5;
 }
 
@@ -15,6 +11,67 @@
 }
 
 
+.grid {
+  display: grid;
+  grid-template-areas:
+  'quest1'
+  'quest2'
+  'quest3'
+  'quest4'
+  'quest5'
+  'quest6'
+  'quest7'
+  'quest8';
+}
+
+.questionDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 0.5em;
+  background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("../../assets/tech_background.jpg") no-repeat;
+  cursor: pointer;
+  min-width: 100vw;
+  height: auto;
+  text-shadow: 0.5px 0.5px black;
+  font-size: 1em;
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-areas:
+    'quest1 quest2'
+     'quest3 quest4'
+    'quest5 quest6'
+     'quest7 quest8';
+  }
+
+  .questionDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 0.5em;
+    background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("../../assets/tech_background.jpg") no-repeat;
+    cursor: pointer;
+    min-width: 50vw;
+    min-height: 25vh;
+    text-shadow: 0.5px 0.5px black;
+    font-size: 1em;
+  }
+
+  .background {
+    background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../assets/Kelly_D.jpg") no-repeat;
+    background-size: cover;
+    z-index: -5;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
 .grid {
   display: grid;
   grid-template-areas:
@@ -29,14 +86,23 @@
   border: 2px solid black;
   padding: 1em;
   background: linear-gradient(rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 0.9)), url("../../assets/tech_background.jpg") no-repeat;
-  /* background-color: white; */
-  font-weight: bold;
   cursor: pointer;
   min-width: 25vw;
   height: 43vh;
   text-shadow: 0.5px 0.5px black;
+  font-size: 1em;
 
 }
+
+.background {
+  background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../assets/Kelly_D.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index: -5;
+}
+
+}
+
 
 .hide {
   display: none
@@ -44,38 +110,9 @@
 
 .transparent {
   background-color: transparent;
-  background: none;
+  background: transparent;
 }
 
 .hide.answer {
   display: block;
 }
-
-/* .quest1 {
-  grid-area: quest1;
-}
-.quest2 {
-  grid-area: quest2
-}
-.quest3 {
-  grid-area: quest3
-}
-.quest1 {
-  grid-area: quest1
-}
-.quest1 {
-  grid-area: quest1
-}
-.quest1 {
-  grid-area: quest1
-}
-.quest1 {
-  grid-area: quest1
-}
-.quest1 {
-  grid-area: quest1
-}
-.quest1 {
-  grid-area: quest1
-} */
-
