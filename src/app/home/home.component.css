@@ -1,6 +1,6 @@
 .container-fluid {
   height: 100vh;
-  background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)), url("../../assets/tech_background.jpg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0)), url("https://raw.githubusercontent.com/diabagatekelly/tuzag-cover-letter/master/src/assets/tech_background.jpg") no-repeat;
   background-size: cover;
 }
 

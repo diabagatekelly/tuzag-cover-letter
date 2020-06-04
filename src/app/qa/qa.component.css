@@ -1,5 +1,5 @@
 .background {
-  background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("../../assets/Kelly_D.jpg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url("https://raw.githubusercontent.com/diabagatekelly/tuzag-cover-letter/master/src/assets/Kelly_D.jpg") no-repeat;
   background-size: cover;
   z-index: -5;
 }
